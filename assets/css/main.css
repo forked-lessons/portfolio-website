@@ -2104,6 +2104,19 @@ input, select, textarea {
 				background: #7c8081;
 				color: #fff;
 			}
+.contact-form {
+	width: 100%;
+	background: #83d3c9;
+	color: white;
+	margin-bottom: 5%;
+	padding: 2%;
+	display: flex;
+	justify-content: space-between;
+	}
+	.github-img {
+		width: 25%;
+		height: 200px;
+	}
 
 /* Button */
 
@@ -2625,7 +2638,11 @@ input, select, textarea {
 		padding: 5em 5em 10em 5em;
 		text-align: center;
 	}
-
+	#footer.contact-form {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
 		#footer .copyright {
 			font-size: 0.8em;
 			line-height: 1em;
@@ -2647,6 +2664,7 @@ input, select, textarea {
 					padding: 0;
 					border: 0;
 				}
+
 
 /* Wide */
 
@@ -2728,7 +2746,10 @@ input, select, textarea {
 			#footer {
 				padding: 4em;
 			}
-
+		#footer.contact-form {
+			display: flex;
+			justify-content: center;
+		}
 	}
 
 /* Narrow */
@@ -3295,6 +3316,9 @@ input, select, textarea {
 					padding: 0;
 					border: 0;
 				}
+			.contact-form {
+			width: 100%;
+		}
 
 		/* Nav */
 
